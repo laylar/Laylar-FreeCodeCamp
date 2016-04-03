@@ -10,10 +10,3 @@ function relocate() {
 	location.href = url;
 	return false;
 }
-
-$(document).ready(function(){
-  $("#queryForm").submit(function(){
-  	
-  });
-  
-});
