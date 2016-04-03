@@ -1,10 +1,19 @@
 <head>
 <script src="randomWiki.js"></script>
+<link rel="stylesheet" type="text/css" href="randomWiki.css">
 </head>
 
+<!-- Give the top of the page some breathing room! -->
+<div class="buffer"></div>
+
+<!-- A form to accept a query for wikipedia -->
+<div id="queryForm">
 <form onSubmit="return relocate();">
   <p>What do you want to know about?</p>
   <input type="text" name="wikiValue" id="wikiQueryValue">
   <input type="submit" value="Search!"><br>
 </form>
+
+<!--Click for random wiki page-->
 <p><a href="http://en.wikipedia.org/wiki/Special:Random">Want something Random?</a></p>
+</div>

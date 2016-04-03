@@ -1,7 +1,15 @@
 /*make it pretty!*/
 
 body {
-	background: url('');
-	background-repeat: no-repeat;
-	background 
+	background-color: #3399ff;
+}
+.buffer {
+	height: 30%;
+}
+
+#queryForm {
+	font-family: "Lucida Sans Unicode";
+	font-size: 30px;
+	margin: auto;
+	text-align: center;
 }
